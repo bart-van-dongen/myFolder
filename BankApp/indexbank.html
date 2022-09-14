@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styleBank.css">
+        <title>Bank app</title>
+    </head>
+<body>
+    <main>
+      
+    <div class="item item-1">
+
+        <h1> Jackie Chan </h1>       
+        
+        <p id="Balance">Balance 0.0</p>
+        <h4>outstanding loan:</h4>
+        <ul id="outstandingLoan">   
+        </ul>
+        <button id="loan">Get loan</button>
+  
+     </div>
+  
+  
+     <div class="item item-2">
+  
+        <h1> Work </h1>
+        <p id="payBalance">pay: 0.0</p>
+        <button id="bank">Bank</button>
+        <button id="workBtnElement" class="btn btn-primary mb-4">Work</button>
+     </div>
+
+     <div class="item item-3">
+
+     <h3>Laptop</h3>
+     <p>select add laptops to your cart below</p>
+
+     <select name="laptops" id="laptops">
+    </select>
+     
+     <input type="number" name="quantity" id="quantity" min="0" max="10" value="1">
+     <button id="add"> Add to Cart</button>
+     
+     <h2 id="title"></h2>
+     <span>discription:</span>
+     <span id="discription"></span>
+     <div id="image">
+        <img>scr= "assets/images/1.png" alt="Girl in a jacket" </img>
+     </div>
+     <h3>Price: </h3>
+     <span id="price"></span>
+     
+     <h4>Cart:</h4>
+     <ul id="cart">   
+     </ul>
+     <p id="totalDue"> Total Due 0.0</p>
+     <button id="pay">Pay now</button>
+
+    </div>
+
+     <script src="indexBank.js"></script>
+    </main>
+</body>
+</html>
