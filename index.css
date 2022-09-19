@@ -1,0 +1,59 @@
+:root {
+  --yellow:#FFC75F;
+  --yellow-dark: #E7B355;
+  --purple: #845EC2;
+  --light-grey: #EFEFEF;
+  --grey: #969696;
+  --black: #1a1a1a;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: x-large;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@import url(https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap);
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Love Ya Like A Sister', cursive;
+  overflow-wrap: break-word;
+  color: var(--light-grey);
+}
+
+@import url(https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap);
+
+div {
+  font-family: 'Love Ya Like A Sister', cursive;
+  overflow-wrap: break-word;
+  color: var(--light-grey);
+}
+
+@import url(https://fonts.google.com/specimen/Sanchez?query=Sanche);
+
+button, p {
+  font-family: 'Sanchez';
+  overflow-wrap: break-word;
+  color: var(--black);
+}
