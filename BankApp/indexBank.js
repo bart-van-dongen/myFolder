@@ -85,17 +85,18 @@ let balance = 0.0
 //pay of work
 let payBalance = 0.0
 
-//const handleAddWork = () =>{   
-    const payment = document.getElementById("payment");
-    let salary = [];
-    function work() {
-      salary = parseInt(salary + 100);
-      payment.innerHTML = salary;
-    }
+const workElement = document.getElementById("work");
 
+
+const handleAddWork = () =>{   
+  
+    //  salary = parseInt(salary + 100);
+      //payment.innerHTML = salary;
+    
+    const work= 100;
     
     payBalance += work;
     payBalanceElement.innerHTML = `pay: ${payBalance.toFixed(2)}`;
+}
 
-
-//workElement.addEventListener("click", handleAddWork);
+workElement.addEventListener("click", handleAddWork);
